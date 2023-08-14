@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   flex-shrink: 0;
+  padding-bottom: 190px;
 
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -22,6 +23,7 @@
         rgba(255, 255, 255, 0) 68.37%
       ),
       url('/genius-homework-4/img/header-background-mobile.png');
+    padding-bottom: 56px;
   }
 
   &__blur {
@@ -35,7 +37,7 @@
   }
 
   &__container {
-    padding: 42px 42px;
+    padding: 18px 42px;
     gap: 40px;
     display: flex;
     align-items: center;
@@ -55,8 +57,9 @@
   &__logo {
     width: 74px;
 
-    @media screen and (max-width: $bp-mobile) {
+    @media screen and (max-width: $bp-tablet) {
       width: 57px;
+      padding: 15px 20px;
     }
   }
 
