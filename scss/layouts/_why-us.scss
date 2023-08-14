@@ -39,7 +39,7 @@
     gap: 26px;
     padding-bottom: 40px;
 
-    @media screen and (max-width: $bp-mobile) {
+    @media screen and (max-width: 689px) {
       flex-direction: column;
       gap: 16px;
     }
@@ -51,6 +51,7 @@
 
   &__card {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     height: 180px;
     padding: 24px 32px;

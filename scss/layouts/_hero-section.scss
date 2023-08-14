@@ -1,6 +1,10 @@
 .hero-section {
   padding: 16px 0 0 206px;
 
+  @media screen and (max-width: $bp-tablet) {
+    padding: 16px 0 0 140px;
+  }
+
   @media screen and (max-width: $bp-mobile) {
     padding: 0;
   }
@@ -24,6 +28,11 @@
     line-height: 0.9;
     padding-bottom: 40px;
     max-width: 529px;
+
+    @media screen and (max-width: $bp-tablet) {
+      font-size: 100px;
+      text-align: left;
+    }
 
     @media screen and (max-width: $bp-mobile) {
       font-size: 54px;
